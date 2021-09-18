@@ -1,4 +1,4 @@
-# client
+# Covid-Tracker
 
 ## Project setup
 ```
