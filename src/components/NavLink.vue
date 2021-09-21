@@ -24,32 +24,13 @@
       </button>
       <div class="px-2 md:px-4">
         <h1>
-          Welcome to, <br />
-          <span class="font-bold text-xl">Trackee Dashboard</span>
+         Keep track of affected countires
         </h1>
       </div>
     </div>
 
     <div class="flex items-center ">
-      <div class="relative mx-4 lg:mx-0">
-        <span class="absolute inset-y-0 left-0 pl-3 flex items-center">
-          <svg class="h-5 w-5 text-gray-500" viewBox="0 0 24 24" fill="none">
-            <path
-              d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </span>
-
-        <input
-          class="w-32 sm:w-64 rounded-md pl-10 pr-4 focus:border-indigo-600 outline-none"
-          type="text"
-          placeholder="What are you searching "
-        />
-      </div>
+      
       <button class="flex mx-4 text-gray-600 focus:outline-none ">
         <svg
           class="h-6 w-6"
@@ -68,16 +49,7 @@
       </button>
 
       <div class="relative">
-        <button
-          @click="dropdownOpen = !dropdownOpen"
-          class="relative z-10 block h-8 w-8 rounded-full overflow-hidden shadow focus:outline-none"
-        >
-          <img
-            class="h-full w-full object-cover"
-            src="/user/ben.png"
-            alt="Your avatar"
-          />
-        </button>
+      
 
         <div
           v-show="dropdownOpen"

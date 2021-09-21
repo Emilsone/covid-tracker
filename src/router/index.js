@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-// import BoardPage from "@/components/BoardPage.vue";
+import Overview from "@/components/Overview.vue";
 
 Vue.use(Router);
 
@@ -8,11 +8,11 @@ export default new Router({
   base: "/",
   mode: "history",
   routes: [
-    // {
-    //   path: "/schedule",
-    //   name: "SchedulePage",
-    //   component: SchedulePage,
-    // },
+    {
+      path: "/overview",
+      name: "Overview",
+      component: Overview,
+    },
     // {
     //   path: "/links/:id",
     //   component: LinkDetails,
