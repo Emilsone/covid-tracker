@@ -114,7 +114,7 @@
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">
-                {{ u.teamcat }}
+                {{ u.total }}
               </td>
 
               <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">
@@ -124,8 +124,6 @@
               <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">
                 {{ u.positive }}
               </td>
-
-              
 
               <td
                 class="
@@ -156,29 +154,28 @@ export default {
       users: [
         {
           name: "Test Registered",
-          teamcat: "Bussiness Team",
+          total:"7069",
           team: "Digital Marketing",
-          positive:"-",
-          death:"1000",
+          positive: "-",
+          death: "1000",
           image: "/user/tom.png",
         },
         {
           name: "Result Given",
-          teamcat: "1,082",
-          team: "1,029",
-          positive:"-",
-          death:"1000",
+         total:"3000",
+          team: "300",
+          positive: "-",
+          death: "1000",
           image: "/user/edidiong.png",
         },
         {
           name: "Pending",
-          teamcat: "177",
+         total:"4069",
           team: "-",
-          positive:"-",
-          death:"1000",
+          positive: "-",
+          death: "1000",
           image: "/user/umaru.png",
         },
-        
       ],
     };
   },
